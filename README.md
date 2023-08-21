@@ -49,7 +49,6 @@ This Colab notebook showcases an image classification model trained to classify 
        # Load and preprocess the input image
        image = tf.keras.preprocessing.image.load_img('path/to/image.jpg', target_size=(224, 224))
        image = tf.keras.preprocessing.image.img_to_array(image)
-       image = image / 255.0
    
        # Perform inference
        image = cv2.resize(image, (256, 256))
