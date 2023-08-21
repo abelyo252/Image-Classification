@@ -9,7 +9,7 @@ This Colab notebook showcases an image classification model trained to classify 
  # Dataset
  The dataset used for training, validation, and testing the model is loaded using the tf.keras.utils.image_dataset_from_directory function. It is organized in a directory structure where each class has its own subdirectory containing the corresponding images. The dataset is divided into training, validation, and test sets using a **70-20-10** split.
 
- ![Image](https://upload.wikimedia.org/wikipedia/commons/c/c7/CRL_Crown_rump_length_12_weeks_ecografia_Dr._Wolfgang_Moroder.jpg?Ultrasound1163529084)
+ ![Image](https://github.com/abelyo252/Image-Classification/blob/main/performance/dataset2.png)
 
 ## Installation
 
