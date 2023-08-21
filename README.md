@@ -50,7 +50,7 @@ This Colab notebook showcases an image classification model trained to classify 
        image = tf.keras.preprocessing.image.load_img('path/to/image.jpg', target_size=(224, 224))
        image = tf.keras.preprocessing.image.img_to_array(image)
    
-       # Perform inference
+       # Preprocess the image
        image = cv2.resize(image, (256, 256))
        img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
        # Preprocess the image
