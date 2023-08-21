@@ -4,7 +4,7 @@ This Colab notebook showcases an image classification model trained to classify 
 
 ![Image](https://upload.wikimedia.org/wikipedia/commons/c/c7/CRL_Crown_rump_length_12_weeks_ecografia_Dr._Wolfgang_Moroder.jpg?Ultrasound1163529084)
 
- This project aims to showcase the process of building an image classification model and provide a starting point for further exploration and experimentation.
+ This project aims to showcase the process of building an image classification model and provide a starting point for further exploration and experimentation. if you want what i do , juse data, found in dataset folder extract subfolder 
 
  # Dataset
  The dataset used for training, validation, and testing the model is loaded using the tf.keras.utils.image_dataset_from_directory function. It is organized in a directory structure where each class has its own subdirectory containing the corresponding images. The dataset is divided into training, validation, and test sets using a **70-20-10** split.
